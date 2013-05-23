@@ -1,0 +1,13 @@
+* Prerequisites
+** virtual box
+** ssh-copy-id
+** bundler
+
+* Commands
+** `cp .rvmrc.example .rvmrc`
+** `cd .` # follow rvm stuff
+** `bundle install`
+** `vagrant up`
+** `ssh-copy-id vagrant@192.168.2.2` # password is "vagrant"
+** `librarian-chef install`
+** `knife solo bootstrap vagrant@192.168.2.2 nodes/my-box.json`

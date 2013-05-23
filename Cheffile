@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'sudo'
+cookbook 'apt'
+cookbook 'ubuntu'
+cookbook 'build-essential'
+cookbook 'ntp'
+cookbook 'mysql'
+cookbook 'monit'
